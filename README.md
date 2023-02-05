@@ -1,2 +1,1 @@
-# HomeWork
-# Hello World 
+# git clone https://github.com/zuevik/HomeWork.git

@@ -27,7 +27,8 @@ str_5 = (' Ivan Ivanou ')
 print(str_5[1:-1])
 
 dict = {'1A': '25','1B': '22','1C': '26','2A': '21','2B': '28','2C': '27','3A': '24','3B': '25','3C': '29','3D': '30'}
-print(dict['1A'])
+school = dict
+print(school['1A'])
 
 
 

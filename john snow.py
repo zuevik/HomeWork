@@ -1,11 +1,3 @@
-a = 1
-print(a)
-print(int(17 / 2 * 3 + 2))
-print(int(2 + 17 / 2 * 3))
-print(int(19 % 4 + 15 / 2 * 3))
-print(int((15 + 6) - 10 * 4))
-print(int(17 / 2 % 2 * 3 ** 3))
-
 # 1
 print(round(-1.6))
 print(round(2.99))
@@ -53,14 +45,14 @@ x = "My name is Agent Smith"
 print(x[1])
 print(x[3:18:3])
 
-#10
+# 10
 if __name__ == '__main__':
     b = [1, 5, 2, 9, 2, 9, 1, 1, 1]
 
-    unique = {x for x in b if b.count(x)%2 == 1}
+    unique = {x for x in b if b.count(x) % 2 == 1}
     print(unique)
 
     print("another method")
     for i in b:
-        if b.count(i)%2 != 0 :
+        if b.count(i) % 2 != 0:
             print(i)

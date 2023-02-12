@@ -6,6 +6,7 @@ print(round(2.99))
 str1 = 'www.my_site.com#about'
 print(str1.replace('#', '/'))
 
+
 # 3
 str2 = 'stroka'
 str3 = 'ing'

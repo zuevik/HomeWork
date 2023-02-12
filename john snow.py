@@ -44,7 +44,6 @@ x = "My name is Agent Smith"
 print(x[1])
 print(x[3:18:3])
 
-
 # 10
 b = [1, 5, 2, 9, 2, 9, 1, 1, 1]
 

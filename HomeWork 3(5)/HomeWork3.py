@@ -12,10 +12,13 @@ str3 = 'ing'
 str4 = str2 + str3
 print(str4)
 
+
 # 4
-str_1 = 'Ivan Ivanou'
-b = str_1.split(' ')
-print(b[1] + ' ' + b[0])
+def math_1(x, y):
+    print(y + ' ' + x)
+
+
+math_1('Ivan', 'Ivanou')
 
 # 5
 str__1 = ' Ivan'
@@ -26,7 +29,7 @@ str__5 = str__4.lstrip(' ')
 str__6 = str__5.rstrip(' ')
 print(str__6, end='.')
 
-# 6
+# 63
 school = {'1A': '25', '1B': '22', '1C': '26', '2A': '21', '2B': '28', '2C': '27', '3A': '24', '3B': '25', '3C': '29',
           '3D': '30'}
 
@@ -39,11 +42,14 @@ str = 'employ'
 str2 = 'employment'
 print(str in str2)
 
-# 9
-x = "My name is Agent Smith"
-print(x[1])
-print(x[3:18:3])
 
+# 9
+def sign(x):
+    print(x[1])
+    print(x[3:18:3])
+
+
+sign("My name is Agent Smith")
 # 10
 b = [1, 5, 2, 9, 2, 9, 1, 1, 1]
 
@@ -54,3 +60,11 @@ print("another method")
 for i in b:
     if b.count(i) % 2 != 0:
         print(i)
+
+
+def add(x, y):
+    return x + y
+
+
+num = add(1, 2)
+print(num)

@@ -1,4 +1,4 @@
-#1
+# 1
 
 with open('text', "r") as file:
     content = file.read()
@@ -14,19 +14,12 @@ else:
     print(f"Предпоследний элемент: {numbers[-2]}")
     print(f"Последний элемент: {numbers[-1]}")
 
-
-
-
-
-
-#2
+# 2
 with open('text_1', "r") as file:
-    numbers = [int(x)  for x in file.read().split()]
+    numbers = [int(x) for x in file.read().split()]
 
     even_numbers = [x for x in numbers if x % 2 == 0]
     odd_numbers = [x for x in numbers if x % 2 == 1]
-
-
 
 with open('even_txt', 'w') as even_file:
     for x in even_numbers:
@@ -36,11 +29,7 @@ with open('odd_numbers', "w") as odd_file:
     for x in odd_numbers:
         odd_file.write(str(x) + '\n')
 
-
-
-
-
-#3
+# 3
 with open('text', "w") as file:
     for i in (1.4, 1.5, 1.6):
         file.write(str(i) + '\n')
@@ -54,12 +43,7 @@ with open('text', 'w') as file:
     for square in squares:
         file.write(str(square) + '\n')
 
-
-
-
-
-
-#4
+# 4
 with open("file1.bin", "wb") as f1:
     num_1 = [45, 1, 100, 23]
     arr_1 = bytearray(num_1)

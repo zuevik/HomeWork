@@ -68,6 +68,5 @@ with open(file2, 'rb') as f2:
 with open(file2, 'wb') as f2:
     f2.write(data1)
 
-
 with open(file1, 'wb') as f1:
     f1.write(data2)

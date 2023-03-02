@@ -2,7 +2,6 @@
 with open('text', "r") as file:
     content = file.read()
     numbers = list(map(int, content.split()))
-
 if len(numbers) < 3:
     print("Ошибка: файл содержит менее четырех чисел")
 else:

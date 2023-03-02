@@ -10,7 +10,6 @@ else:
     print(f"Второй элемент: {numbers[1]}")
     print(f"Предпоследний элемент: {numbers[-2]}")
     print(f"Последний элемент: {numbers[-1]}")
-
 # 2
 with open('text_1', "r") as file:
     numbers = [int(x) for x in file.read().split()]

@@ -56,18 +56,17 @@ with open("file2.bin", "wb") as f2:
 file1 = "file1.bin"
 file2 = "file2.bin"
 
-# Считываем содержимое первого файла
+
 with open(file1, 'rb') as f1:
     data1 = f1.read()
 
-# Считываем содержимое второго файла
+
 with open(file2, 'rb') as f2:
     data2 = f2.read()
 
-# Записываем содержимое первого файла во второй файл
+
 with open(file2, 'wb') as f2:
     f2.write(data1)
 
-# Записываем содержимое второго файла в первый файл
 with open(file1, 'wb') as f1:
     f1.write(data2)

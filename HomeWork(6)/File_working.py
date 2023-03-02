@@ -1,14 +1,12 @@
 # 1
-
 with open('text', "r") as file:
     content = file.read()
-    # прочитать все строки и преобразовать в список целых чисел
     numbers = list(map(int, content.split()))
 
 if len(numbers) < 3:
     print("Ошибка: файл содержит менее четырех чисел")
 else:
-    # вывести нужные элементы
+
     print(f"Первый элемент: {numbers[0]}")
     print(f"Второй элемент: {numbers[1]}")
     print(f"Предпоследний элемент: {numbers[-2]}")

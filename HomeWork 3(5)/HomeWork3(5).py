@@ -1,4 +1,4 @@
-# Задание 1
+# Задание 1.0
 def f(x, y):
     print(round(x))
     print(round(y))

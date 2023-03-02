@@ -1,4 +1,4 @@
-#Variables
+#Variables 1.0
 def vard():
     var_int = 10
     var_float = 8.4

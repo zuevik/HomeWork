@@ -1,5 +1,4 @@
 # 1
-
 with open('text', "r") as file:
     content = file.read()
     # прочитать все строки и преобразовать в список целых чисел

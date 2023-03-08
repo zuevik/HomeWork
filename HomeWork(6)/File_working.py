@@ -2,7 +2,6 @@
 with open('text', "r") as file:
     content = file.read()
     numbers = list(map(int, content.split()))
-
 if len(numbers) < 3:
     print("Ошибка: файл содержит менее четырех чисел")
 else:
@@ -11,7 +10,6 @@ else:
     print(f"Второй элемент: {numbers[1]}")
     print(f"Предпоследний элемент: {numbers[-2]}")
     print(f"Последний элемент: {numbers[-1]}")
-
 # 2
 with open('text_1', "r") as file:
     numbers = [int(x) for x in file.read().split()]

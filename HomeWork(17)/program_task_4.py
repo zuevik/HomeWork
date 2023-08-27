@@ -32,8 +32,8 @@ class testOfBinariesChanger(unittest.TestCase):
         length_lst_1 = len(list_1)
         length_lst_2 = len(list_2)
 
-        x = length_lst_1 * 'B'
-        y = length_lst_2 * 'B'
+        x = str(length_lst_1) + 'B'
+        y = str(length_lst_2) + 'B'
 
         uncoded_bin1 = struct.unpack(x, coded_bin1)
         uncoded_bin2 = struct.unpack(y, coded_bin2)

@@ -1,4 +1,4 @@
-from From_HW6 import square_in_file
+from HomeWork_17.programs_from_homework6_to_test import square_in_file
 import unittest
 import os
 

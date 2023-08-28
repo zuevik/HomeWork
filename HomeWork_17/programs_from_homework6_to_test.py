@@ -1,17 +1,17 @@
-# def square_in_file(*args):
-#     with open('text', "w") as file:
-#         for i in args:
-#             file.write(str(i) + '\n')
-#
-#     with open('text', 'r') as file:
-#         numbers = list(map(float, file.readlines()))
-#
-#     squares = list(map(lambda x: x ** 2, numbers))
-#
-#     with open('text', 'w') as file:
-#         for square in squares:
-#             file.write(str(square) + '\n')
-# square_in_file(1, 2, 3)
+def square_in_file(*args):
+    with open('text', "w") as file:
+        for i in args:
+            file.write(str(i) + '\n')
+
+    with open('text', 'r') as file:
+        numbers = list(map(float, file.readlines()))
+
+    squares = list(map(lambda x: x ** 2, numbers))
+
+    with open('text', 'w') as file:
+        for square in squares:
+            file.write(str(square) + '\n')
+square_in_file(1, 2, 3)
 
 
 

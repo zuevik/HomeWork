@@ -1,4 +1,4 @@
-from From_HW6 import to_change_information_in_two_binaryes
+from HomeWork_17.programs_from_homework6_to_test import to_change_information_in_two_binaryes
 import unittest
 import os
 import struct

@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 
 
-C:/Users/zuevi/PycharmProjects/HomeWork(18)/HomeWork(18)/test_file_of_task_3.py:44
+
 
 
 
